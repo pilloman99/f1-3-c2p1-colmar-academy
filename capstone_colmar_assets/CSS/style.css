@@ -1,0 +1,662 @@
+html{
+  font-size: 16px;
+  font-family: "Nunito";
+}
+
+/*Estilo del encabezado*/
+
+.minimen{
+  height:64px;
+  width: 100%;
+  display: inline-flex;
+  padding: 10px 24px;
+  font-family: "Nunito";
+}
+
+.logoimg{
+  display: inline-block;
+  height: 3rem;
+}
+
+.title {
+  display: inline-flex;
+  padding-top: 0rem;
+  align-self: center;
+  width: 73%
+}
+
+.header span{
+  font-weight: bold;
+  font-size: 2rem;
+  display: inline-flex;
+}
+
+.gray {
+  font-size: 2rem;
+  display: inline-flex;
+  color: lightgray;
+}
+
+.menu {
+  display: inline-flex;
+  align-content: center;
+  align-self: center;
+}
+
+.menu a{
+  padding-left: 12px;
+  margin-left: 16px;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.menimg1{
+  display: none;
+}
+
+  /*Estilo del banner*/
+
+.banner{
+  background-color: lightgray;
+  flex-direction: row;
+  height: 100%;
+  width: 100%;
+  display: inline-flex;
+  padding-left: 24px;
+}
+
+.bannerimg{
+  width: 60%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: inline-flex;
+
+}
+
+.img{
+  width: 100%;
+  margin-right: 24px;
+}
+
+.bantext{
+  width: 40%;
+  height: 100%;
+  display: inline-block;
+  flex-direction: column;
+}
+
+.learn{
+  width: 100%;
+  display: inline-flex;
+  color: black;
+  align-self: center;
+  padding-bottom: 10rem;
+  flex-direction: column;
+  margin-top: 15rem;
+  font-family: "Nunito";
+  text-align: center;
+  font-size: 2rem;
+  color: #121212
+}
+
+.button{
+  height: 2rem;
+  width: 50%;
+}
+
+button{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100%;
+  justify-content: center;
+  background-color: darkgrey;
+  font-size: 2rem;
+  color: white;
+}
+
+.learn h1{
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Nunito";
+  text-align: center;
+  opacity: .75;
+  margin-bottom: 22px;
+}
+
+  /*Estilo de la informacion*/
+
+.info{
+  display: inline-flex;
+  margin: 32px 24px;
+  width: 100%;
+  height: 100%;
+}
+
+.infoimag{
+  display: inline-flex;
+  margin: 32px 24px;
+}
+.half1{
+  flex-direction: column;
+  width: 60%
+}
+
+.infotext{
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.practice h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Nunito";
+  text-align: left;
+  opacity: .75;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  color: black;
+}
+
+.practice p{
+  font-size: 2rem;
+  font-family: "Nunito";
+  text-align:left;
+  margin-bottom: 32px;
+  color: gray;
+}
+
+.practice{
+  font-size: 1.5rem;
+  font-family: "Nunito";
+  text-align: left;
+  margin-bottom: 32px;
+  color: gray;
+}
+
+.morein{
+  width: 40%;
+  margin-left: 24px;
+  border-bottom: 32px;
+}
+
+.orientation{
+  width: 100%;
+  border: 2px solid lightgray;
+  margin-bottom: 2px;
+  flex-direction: row;
+  display: inline-flex;
+  transition-duration: 1s;
+  transition-property: background-color;
+}
+
+.miniinfo{
+  width: 35%;
+  height : auto;
+  display: inline-flex;
+  margin: 16px;
+}
+
+.datos{
+  width: 65%;
+  margin: 16px;
+}
+
+.orientation:hover{
+  background-color: darkgrey;
+}
+
+.datos h1{
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Nunito";
+  text-align: left;
+  opacity: .75;
+  margin-top: 3rem;
+  margin-bottom: 8px;
+}
+.datos p{
+  font-size: 1.5rem;
+  font-family: "Nunito";
+  text-align:left;
+  margin-bottom: 8px;
+  color: gray;
+}
+
+.datos a{
+  font-size: 1.5rem;
+  font-family: "Nunito";
+  text-align:left;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  text-decoration: none;
+  color: blue;
+}
+
+    /*Estilo de los cursos*/
+
+.courses{
+  background-color: lightgray;
+  width: 100%;
+  padding-left: 32px;
+}
+
+.courses h1{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Nunito";
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 100%;
+  justify-content: center;
+}
+
+.coursecat{
+  display:inline-flex;
+  margin-left: 40px;
+  margin-right: 72px;
+  margin-bottom: 32px;
+
+}
+
+.coursebox{
+  margin-right: 32px;
+  margin-left: 32px;
+  background-color: white;
+  width: 33%;
+  justify-content: space-between;
+}
+
+.course{
+  width: 100%;
+  height:auto;
+  display: inline-flex;
+}
+
+.courseinfo{
+  width: 100%;
+}
+
+
+.courseinfo h2{
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Nunito";
+  padding-top:16px;
+  padding-left: 16px;
+}
+
+.courseinfo span{
+  font-size: 1.75rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  font-family: "Nunito";
+  color: gray;
+}
+
+.courseinfo p{
+  font-size: 1.5rem;
+  padding-top: 8px;
+  padding-bottom: 24px;
+  padding-left: 16px;
+  font-family: "Nunito";
+  color: gray;
+}
+
+
+    /*Estilo de la tesis*/
+
+.tesis{
+  display: inline-blo;
+  margin: 32px 24px;
+  width: 100%;
+  height: 100%;
+}
+
+.half2{
+  flex-direction: column;
+  width: 60%
+}
+
+.infoimag video{
+  display: inline-flex;
+  width: 100%;
+  height: 10%;
+}
+
+.thesis{
+  display: block;
+}
+
+.thesis h1{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Nunito";
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 100%;
+  justify-content: center;
+  color: black;;
+}
+
+.cont{
+  display: inline-flex;
+}
+
+.tesisin{
+  margin-top: 24px;
+  width: 40%;
+  margin-left: 24px;
+  border-bottom: 32px;
+}
+
+.practice2 h1 {
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Nunito";
+  text-align: left;
+  opacity: .75;
+  margin-top: 32px;
+  margin-bottom: 24px;
+  color: black;
+}
+
+.practice2 p{
+  font-size: 2rem;
+  font-family: "Nunito";
+  text-align:left;
+  margin-bottom: 32px;
+  color: gray;
+}
+
+.practice2{
+  font-size: 1.5rem;
+  font-family: "Nunito";
+  text-align: left;
+  margin-bottom: 32px;
+  color: gray;
+}
+
+    /*ESTILO DEL FOOTER*/
+
+footer{
+  border-top: 1rem solid lightgray;
+  display: inline-flex;
+  padding-bottom: 32px;
+}
+
+.copy{
+  display: inline-flex;
+  padding-left: 24px;
+  font-size: 1.25rem;
+  font-family: "Nunito";
+  color:gray;
+  width: 85%;
+}
+
+.term{
+ display: inline-flex;
+}
+
+.term a{
+  padding-left: 24px;
+  font-size: 1.25rem;
+  font-family: "Nunito";
+  color:gray;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 470px ) {
+
+  /*ESTILO DE MOVIL PARA EL HEADER*/
+
+  .minimen{
+    width: 470px;
+    padding: 10px 0;
+  }
+
+  .logoimg{
+    display: inline-block;
+    height: 40px;
+    margin: 0 2.5rem;
+  }
+
+  .header{
+    height: 64px;
+  }
+
+  .menu{
+  display: none;
+  }
+
+  .title{
+  display: none;
+}
+
+  .menimg1{
+  display: inline-flex;
+  height: 40px;
+}
+
+  .menimg1 img{
+    height: 100%;
+    margin: 0 2.5rem;
+  }
+
+  .minimen{
+    display: inline-flex;
+    justify-content: flex-start;
+  }
+
+  /*ESTILO DE MOVIL PARA EL BANNER*/
+
+  .banner{
+    flex-direction: column;
+    padding-left: 0px;
+    padding-top: 0px;
+    width: 470px;
+  }
+
+  .bannerimg{
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .img{
+    padding-right: 0px;
+  }
+
+  .bantext{
+    width: 100%;
+    height: 100%;
+    display: block;
+    flex-direction: column;
+    padding-bottom: 32px;
+    margin-left: 0px;
+  }
+
+  .learn{
+    padding-bottom: 24px;
+    flex-direction: column;
+    margin-top: 0rem;
+  }
+
+  button{
+    width: 80%;
+    margin-left: 2.5rem;
+  }
+
+    /*ESTILO DE MOVIL DE LA INFORMACION*/
+
+  .info{
+    display: inline-flex;
+    margin: 16px 0px;
+    width: 470px;
+    height: 100%;
+  }
+
+
+  .half1{
+    display: none;
+  }
+
+  .morein{
+    width: 100%;
+    margin-left: 0px;
+    border-bottom: 32px;
+  }
+
+  .orientation{
+    border: none;
+    flex-direction: column;
+  }
+
+  .miniinfo{
+    width: 100%;
+    height : auto;
+    display: inline-flex;
+    margin: 16px;
+  }
+
+  .miniinfo img{
+    width: 94%;
+    margin-top: 32px;
+  }
+
+
+  .datos{
+    width: 65%;
+    margin: 16px;
+  }
+
+  .orientation:hover{
+    background-color: darkgrey;
+  }
+
+  .datos h1{
+    margin-top: 0;
+  }
+
+    /*ESTILO DE MOVIL DE LOS CURSOS*/
+  .courses{
+    background-color: white;
+    width: 470px;
+    margin-top: 32px;
+    padding-left: 16px;
+
+  }
+
+  .courses h1{
+    margin-bottom: 16px;
+  }
+
+  .coursecat{
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .coursebox{
+    margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .course{
+    display: none
+  }
+
+  .courseinfo{
+    width: 100%;
+    background-color: lightgray
+  }
+
+
+  .courseinfo span{
+    display: none;
+    padding-bottom: 0px;
+    padding-top: : 0px;
+  }
+
+  .courseinfo p{
+    display: none;
+    padding-bottom: 0px;
+    }
+
+    /*ESTILO DE MOVIL DE LA TESIS*/
+    .tesis{
+      display: inline-block;
+      margin-left: 0px;
+      margin-top: 32px;
+      margin-right: 0px;
+      margin-bottom: 24px;
+      width: 470px;
+      height: 100%;
+
+    }
+
+    .half2{
+      flex-direction: column;
+      width: 100%
+      padding: 0px;
+    }
+
+    .infoimag video{
+      display: inline-flex;
+      width: 470px;
+    }
+
+    .infoimag {
+      margin: 0px;
+      padding: 0px;
+    }
+
+    .practice2{
+      display: none
+    }
+
+    .thesis{
+      display: block;
+    }
+
+    .thesis h1{
+        font-size: 3rem;
+        font-weight: bold;
+        font-family: "Nunito";
+        text-align: center;
+        padding-top: 32px;
+        padding-bottom: 16px;
+        width: 100%;
+        justify-content: center;
+        color: black;;
+    }
+
+    .cont{
+      display: inline-flex;
+      padding: 0px;
+    }
+
+    .tesisin{
+      display: none;
+    }
+
+    /*ESTILO DE MOVIL PARA EL FOOTER*/
+
+    .term{
+      display: none;
+    }
+
+    .copy{
+      display: inline-flex;
+      padding-left: 24px;
+      font-size: 1.25rem;
+      font-family: "Nunito";
+      color:gray;
+      width: 470px;
+    }
+}
